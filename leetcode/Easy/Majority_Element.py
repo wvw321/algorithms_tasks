@@ -21,3 +21,5 @@ from collections import Counter
 def majorityElement(nums: list[int]) -> int:
     x = Counter(nums)
     return max(x, key=x.get)
+
+
